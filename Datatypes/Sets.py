@@ -14,6 +14,6 @@ lst = [1,2,5,4,3]
 s = set(lst) 
 print(s) # may display {1, 2, 3, 4, 5} 
 
-# Frozenset datatype:same as set but we can't modify the data inside the function called frozenset() --> immutable
+# Frozenset datatype:same as set but we can't modify the data inside the function called frozenset() -->immutable
 fs = frozenset("LeelaKanthi")
 print(fs)

@@ -54,3 +54,4 @@ print(tpl) #we will discuss this in upcoming programs
 lst = list(range(10)) 
 print(lst) # will display: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 
 
+
