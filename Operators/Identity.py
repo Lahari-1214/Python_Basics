@@ -15,7 +15,7 @@ else:
 # is not:this is not operator returns True, if the identity numbers of two objects being compared are not same. If they are same, then it will return False.  
 one = [1,2,3,4] 
 two = [1,2,3,4] 
-if(one is two): 
+if(one is not two): 
     print("one and two are same") 
 else: 
     print("one and two are not same") #Since both the lists are created at different memory locations, we have their identity numbers different
