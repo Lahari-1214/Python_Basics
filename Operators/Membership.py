@@ -14,3 +14,4 @@ postal = {'Delhi': 110001, 'Chennai': 600001, 'Kolkata': 700001,
 'Bangalore':560001} 
 for city in postal: 
     print(city, postal[city]) 
+
