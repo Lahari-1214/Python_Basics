@@ -63,6 +63,12 @@ print(str1)
 
 # Changing case of String
 # 1.upper() 2.lower() 3.swapcase() 4.title()
+upr = "Python is very powerful languague"
+print(upr.upper())
+print(upr.lower())
+print(upr.swapcase()) #upper case letters into lowercase letters and lowercase into uppercase
+print(upr.title()) #every first character of a word will become capital letter
+
 
 
 
