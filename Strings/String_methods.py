@@ -45,4 +45,15 @@ if n == -1:
 else: 
     print('Sub string found at position: ', n+1) 
 
+# Replace method: The replace() method is useful to replace a sub string in a string with another sub string.:stringname.replace(old, new)
+v1 = "I am a Java developer"
+v2 = v1.replace("Java","Python")
+print(v2)
+
+# split(): is used to brake a string into pieces
+x1 = "one,two,three" 
+x2 = x1.split(',')
+print(x2)
+
+
 
