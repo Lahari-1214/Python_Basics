@@ -58,3 +58,11 @@ for i in range(len(str)):
  
 if flag==False: 
     print('Not found') 
+
+# Finding how many characters and words a string contains
+# without using len()
+str = input("Enter the string")
+i = 0
+for i in str:
+    i+=1
+print(i)
