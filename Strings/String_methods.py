@@ -55,5 +55,14 @@ x1 = "one,two,three"
 x2 = x1.split(',')
 print(x2)
 
+# join(): it is used for join the list of strings with a separator
+
+y = ("Apple","Banana","Jack Fruit","Water melon")
+str1 = "-".join(y)   # the output string is str1.  
+print(str1) 
+
+# Changing case of String
+# 1.upper() 2.lower() 3.swapcase() 4.title()
+
 
 
