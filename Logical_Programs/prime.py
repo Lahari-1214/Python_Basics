@@ -33,3 +33,28 @@ for i in range(2,n//2+1):
         break
 else:
     print("It is a prime")
+
+
+# using function
+# A Python function to check if a given number is prime or not. 
+# a function to test whether a number is prime or not 
+def prime(n): 
+    """ to check if n is prime or not """ 
+    x=1   # this will be 0 if not prime 
+    for i in range(2, n):   # divide n from 2 to n-1 
+        if n%i == 0:   # if divisible by any number 
+            x=0   # take x as 0 
+            break 
+        else: 
+            x=1   # else take x as 1 
+    return x 
+ 
+# test if a number is prime or not 
+num = int(input('Enter a number: ')) 
+ 
+# check if num is prime or not 
+result = prime(num) 
+if result == 1: 
+    print(num, ' is prime') 
+else: 
+    print(num, ' is not prime') 
