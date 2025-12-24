@@ -33,7 +33,10 @@ grocery(item='Sugar')
 
 # variable length arguments: A variable length argument is an argument that can accept any number of values.
 def fun(*args):
-    print(*args)
+    print(args)
 fun("leela","babi","ram",22,89,21) #it will store the *args in a tuple 
 
 # **kargs is a dictionary object which is used to store key-value pairs
+def fun2(**kwargs):
+    print(kwargs)
+fun2(a = "leela",b = "lahari")
