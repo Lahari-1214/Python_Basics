@@ -20,10 +20,18 @@ def myfunction():
     global a  
  # this is global var 
     print('global a= ', a)   # display global var 
-    a=2  
- # modify global var value 
-    print('modifed a= ', a)  
- # display new value 
+    a=2  # modify global var value 
+    print('modifed a= ', a)  # display new value 
 myfunction() 
-print('global a= ', a)  
- # display modified value
+print('global a= ', a)  # display modified value
+
+# passing group of elements into a funtion let say lists,tuples,strings,etc
+def Group(lst):
+    print(lst)
+    sum = 0
+    for i in lst:
+        sum+=i
+    print("Sum:",sum)
+    print("Avg",sum/len(lst))
+lst = [int(x) for x in input().split()]
+Group(lst)
