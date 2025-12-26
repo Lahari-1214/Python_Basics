@@ -35,6 +35,7 @@ def towers(n, a, c, b):
 # call the function  
 n = int(input('Enter number of disks: ')) 
  
-# we should change n disk
+# we should change n disk  from A to C using B as intermediate pole 
+towers(n, 'A', 'C', 'B') 
             
         
