@@ -43,3 +43,19 @@ def num():
 # call num() function and apply decor1 and then decor  
 print(num()) 
 
+
+
+# Decorator with arguments
+def dect(fun):
+    def inner(name):
+        print("Hey! How are you")
+        fun(name)
+        print("So good to see you")
+    return inner
+
+@dect
+def greet(name):
+    print(name)
+
+greet("Leela")
+
