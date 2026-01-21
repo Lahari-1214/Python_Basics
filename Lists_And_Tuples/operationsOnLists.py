@@ -30,7 +30,13 @@ print(num+names) #concatenation
 print(names*2) #repetition
 
 y= 'Raju' in names #membership
-print(y)
+print("membership",y)
 
 for i in x:  #iteration
     print(i)
+
+
+
+# range(): range() function to generate a sequence of integers which can be stored in a list.
+b=list(range(10,20,1))
+print(b)
