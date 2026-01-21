@@ -20,3 +20,16 @@ print("Removing 9 from the list",lst)
 
 lst.reverse()
 print(lst,"Reversed")
+
+
+# sum(): returns the sum of all the elements in the list
+naturalnum = list(range(11))
+print(sum(naturalnum))
+
+# index(): returns the first occurance of x
+print(naturalnum.index(10))
+
+
+# insert(): Inserts x in to the list in the position specified by i  syntax: list.insert(i, x) 
+naturalnum.insert(4,400)
+print(naturalnum)
