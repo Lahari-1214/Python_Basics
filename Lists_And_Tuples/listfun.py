@@ -33,3 +33,26 @@ print(naturalnum.index(10))
 # insert(): Inserts x in to the list in the position specified by i  syntax: list.insert(i, x) 
 naturalnum.insert(4,400)
 print(naturalnum)
+
+# extend(): Appends list1 to list syntax: list.extend(lst)
+naturalnum.extend(lst)
+print("Extending lst and naturalnum",naturalnum)
+
+# count():Returns number of occurrences of x in the list 
+print(naturalnum.count(400))
+
+# pop(): Removes the ending element from the list 
+naturalnum.pop()
+print("After pop:",naturalnum)
+
+naturalnum.pop()
+print("After pop:",naturalnum)
+
+# sort():Sorts the elements of the list into ascending order
+naturalnum.sort()
+print("AFter sorting:",naturalnum)
+
+
+# clear():Deletes all elements from the list 
+naturalnum.clear()
+print(naturalnum)
