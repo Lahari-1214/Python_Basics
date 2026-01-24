@@ -9,16 +9,15 @@ This mini project is perfect for beginners to understand:
 </pre>
 
 <h4> Features</h4>
-<ul>
-<li>
- Basic arithmetic operations: +, -, *, /
 
- Displays calculation history
+1. Basic arithmetic operations: +, -, *, /
 
- Clear current input
+2. Displays calculation history
 
- Clear full history
+3. Clear current input
 
- Error handling for invalid expressions
+4. Clear full history
 
- User-friendly GUI </li></ul>
+5. Error handling for invalid expressions
+
+6. User-friendly GUI 
