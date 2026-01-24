@@ -1,15 +1,14 @@
-# functions
+import tkinter as tk
+from tkinter import messagebox
 
-def sum():
-    pass
-def sub():
-    pass
-def mul():
-    pass
-def div():
-    pass
-def rem():
-    pass
+# Create main window
+root = tk.Tk()
+root.title("Calculator with History")
+root.geometry("400x500")
 
-def storinghistory():
-    pass
+# History list
+history = []
+
+# Entry field
+entry = tk.Entry(root, width=25, font=("Arial", 18), borderwidth=2)
+entry.pack(pady=10)
