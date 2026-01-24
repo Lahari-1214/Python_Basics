@@ -9,8 +9,7 @@ This mini project is perfect for beginners to understand:
 </pre>
 
 <h4> Features</h4>
-<ol>
-
+<ul>
 <li>
  Basic arithmetic operations: +, -, *, /
 
@@ -22,4 +21,4 @@ This mini project is perfect for beginners to understand:
 
  Error handling for invalid expressions
 
- User-friendly GUI </li></ol>
+ User-friendly GUI </li></ul>
