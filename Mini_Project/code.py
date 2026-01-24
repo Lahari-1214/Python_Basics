@@ -30,14 +30,20 @@ def calculate():
         history.append(f"{expression} = {result}")
         entry.delete(0, tk.END)
         entry.insert(tk.END, result)
-     
+        update_history()
     except:
         messagebox.showerror("Error", "Invalid Expression")
 
 
+def update_history():
+    history_box.delete(0, tk.END)
+    for item in history:
+        history_box.insert(tk.END, item)
 
 
-
+def clear_history():
+    history.clear()
+    history_box.delete(0, tk.END)
 
 
 # ---------- Buttons ----------
@@ -68,7 +74,18 @@ for button in buttons:
         col = 0
         row += 1
 
+# Clear button
+clear_btn = tk.Button(root, text="Clear", width=20, command=clear_entry)
+clear_btn.pack(pady=5)
 
+# ---------- History Section ----------
+tk.Label(root, text="History", font=("Arial", 14)).pack()
+
+history_box = tk.Listbox(root, width=45, height=8)
+history_box.pack(pady=5)
+
+clear_history_btn = tk.Button(root, text="Clear History", command=clear_history)
+clear_history_btn.pack(pady=5)
 
 # Run the application
 root.mainloop()
